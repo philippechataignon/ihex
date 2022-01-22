@@ -1,6 +1,6 @@
-CC=clang
-CFLAGS=-Wall -std=c99 -pedantic -Wextra -Weverything -Wno-padded -Os #-emit-llvm
-LDFLAGS=-Os
+CC=gcc
+CFLAGS=-Wall -std=c99 -O2
+LDFLAGS=
 AR=ar
 ARFLAGS=rcs
 
